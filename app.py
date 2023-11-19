@@ -12,9 +12,9 @@ app.secret_key = "asdfghqwer"
         #BASE DE DATOS USUARIOS Y CONTRA
 
 app.config['MYSQL_HOST'] = '192.168.2.103'
-app.config['MYSQL_PASSWORD'] = 'kuaker'  #'pene1234'
-app.config['MYSQL_USER'] = 'kuaker' #'pene'
-app.config['MYSQL_DB'] = 'usuarios'
+app.config['MYSQL_PASSWORD'] = 'hacker'  #'pene1234'
+app.config['MYSQL_USER'] = 'hacker' #'pene'
+app.config['MYSQL_DB'] = 'usuario'
 app.config['MYSQL_CURSORCLASS'] = 'DictCursor'
 
 mysql = MySQL(app)
