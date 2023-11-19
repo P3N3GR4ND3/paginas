@@ -60,7 +60,7 @@ def acceso():
             return redirect(url_for("pagina"))
         else:
 
-            return render_template("index.html",mensaje="USUARIO NO RECONOCIDO!!", mensajedos="ACCESO DENEGADO!!")
+            return render_template("index.html")
 men = "<center><h1>desgraciado <br> no entres a rutas a las que no tienes permiso!! </h1></center>"
 
 
