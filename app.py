@@ -76,12 +76,6 @@ def siguiente():
         return render_template("paginados.html")
     return "no estas logeado o registrado wey"
 
-@app.route("/webos")
-def display_images():
-    # La URL de tu servidor de ngrok donde se encuentran las imágenes
-    ngrok_url = "https://c369-181-115-167-130.ngrok-free.app"
-    
-    return render_template("fotos.html", ngrok_url=ngrok_url)
 if __name__=='__main__':
     app.secret_key="webos1234"
     app.run(debug=True, host="0.0.0.0", port=4444)
